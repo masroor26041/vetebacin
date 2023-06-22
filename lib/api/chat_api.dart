@@ -7,7 +7,7 @@ class ChatApi {
 
   ChatApi() {
     OpenAI.apiKey = "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";
-    OpenAI.organization = "org-bak7Xov4L1fF75fcutUiDPur";
+    OpenAI.organization = "org-5EBbGaAdHJlNNsGHkbX2hGA7";
   }
 
   Future<String> completeChat(List<ChatMessage> messages) async {
