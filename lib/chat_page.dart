@@ -173,6 +173,8 @@ class _ChatPageState extends State<ChatPage> {
         }
       });
     } catch (err) {
+      print("ERROR:______");
+      print(err);
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
             content: Text('Ndodhi një gabim. Ju lutemi provoni përsëri.')),
