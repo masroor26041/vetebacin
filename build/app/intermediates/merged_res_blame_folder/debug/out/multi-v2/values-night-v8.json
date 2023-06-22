@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.chatgpt_client.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.VeteBacin.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Masroor\\StudioProjects\\chatgpt_client\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Masroor\\backup2\\VeteBacin\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

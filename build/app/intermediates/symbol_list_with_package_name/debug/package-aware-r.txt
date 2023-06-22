@@ -1,4 +1,4 @@
-com.example.chatgpt_client
+com.example.VeteBacin
 attr activityAction
 attr activityName
 attr alpha

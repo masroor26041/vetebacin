@@ -82,6 +82,38 @@ class DatabaseHelper {
   }
 
 
+  Future<bool> resetPassword(String email,String birthday, String password) async {
+    const url =
+        'https://gptkosovo.azurewebsites.net/api/PasswordReset';
+
+    final headers = {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*'
+    };
+    print(email);
+    print(birthday);
+    print(password);
+    final body = jsonEncode({
+      'email': email,
+      'birthdate': birthday,
+      'new_password': password,
+    });
+
+    final response = await http.post(Uri.parse(url), headers: headers, body: body);
+
+    if (response.statusCode == 200) {
+      // Login successful
+      print('Reset password successful');
+      return true;
+    } else {
+      // Login failed
+      print('Reset password failed with error code ${response.statusCode}');
+      return false;
+    }
+
+  }
+
+
 
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chatgpt_client"
+    package="com.example.VeteBacin"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -21,7 +21,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="VeteBacin" >
         <activity
-            android:name="com.example.chatgpt_client.MainActivity"
+            android:name="com.example.VeteBacin.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"

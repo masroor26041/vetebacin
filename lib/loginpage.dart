@@ -1,3 +1,4 @@
+import 'package:VeteBacin/password_resetpage.dart';
 import 'package:VeteBacin/registerpage.dart';
 import 'package:flutter/material.dart';
 import 'package:VeteBacin/helper/colorpalatte.dart';
@@ -42,9 +43,10 @@ class _LoginPageState extends State<LoginPage> {
 
 
     return WillPopScope(
+
         onWillPop: () async => false,
       child:Scaffold(
-
+        resizeToAvoidBottomInset:false,
       // resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text(
@@ -191,8 +193,7 @@ class _LoginPageState extends State<LoginPage> {
                         setState(() {
                           _isLoading=true;
                         });
-                        print(_email.text);
-                        print(_password.text);
+
                         final response = await _databaseHelper.login(_email.text, _password.text);
                         if (response == true) {
                           // Login successful
@@ -260,6 +261,31 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   child: const Text(
                     'Për tu regjistruar',
+                    style: TextStyle(
+                      color: Color.fromRGBO(255, 255, 255, 1),
+                      decoration: TextDecoration.underline,
+                    ),
+                  ),
+                ),
+
+
+
+
+
+
+                TextButton(
+                  onPressed: () async {
+                    Navigator.push(
+                      context,
+                      PageRouteBuilder(
+                        pageBuilder: (_, __, ___) => ResetPasswordPage(),
+                        transitionDuration: Duration(milliseconds: 200),
+                        transitionsBuilder: (_, a, __, c) => FadeTransition(opacity: a, child: c),
+                      ),
+                    );
+                  },
+                  child: const Text(
+                    'Password reset',
                     style: TextStyle(
                       color: Color.fromRGBO(255, 255, 255, 1),
                       decoration: TextDecoration.underline,

@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.chatgpt_client"
+3    package="com.example.VeteBacin"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\Masroor\StudioProjects\chatgpt_client\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->C:\Users\Masroor\StudioProjects\chatgpt_client\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\Masroor\backup2\VeteBacin\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\Masroor\backup2\VeteBacin\android\app\src\debug\AndroidManifest.xml:7:22-64
 16
 17    <application
 18        android:name="android.app.Application"
@@ -24,7 +24,7 @@
 21        android:icon="@mipmap/ic_launcher"
 22        android:label="VeteBacin" >
 23        <activity
-24            android:name="com.example.chatgpt_client.MainActivity"
+24            android:name="com.example.VeteBacin.MainActivity"
 25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 26            android:exported="true"
 27            android:hardwareAccelerated="true"
@@ -57,13 +57,13 @@
 54            android:value="2" />
 55
 56        <activity
-56-->[:url_launcher_android] C:\Users\Masroor\StudioProjects\chatgpt_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+56-->[:url_launcher_android] C:\Users\Masroor\backup2\VeteBacin\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 57            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-57-->[:url_launcher_android] C:\Users\Masroor\StudioProjects\chatgpt_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+57-->[:url_launcher_android] C:\Users\Masroor\backup2\VeteBacin\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 58            android:exported="false"
-58-->[:url_launcher_android] C:\Users\Masroor\StudioProjects\chatgpt_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+58-->[:url_launcher_android] C:\Users\Masroor\backup2\VeteBacin\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 59            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-59-->[:url_launcher_android] C:\Users\Masroor\StudioProjects\chatgpt_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+59-->[:url_launcher_android] C:\Users\Masroor\backup2\VeteBacin\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 60
 61        <uses-library
 61-->[androidx.window:window:1.0.0-beta04] C:\Users\Masroor\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40

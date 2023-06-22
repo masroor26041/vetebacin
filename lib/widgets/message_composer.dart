@@ -20,6 +20,7 @@ class MessageComposer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 52,
       margin: const EdgeInsets.only(left:10,top:5,right: 10, bottom: 10),
       padding: const EdgeInsets.only(left:20,top:2,right: 2, bottom: 2),
       decoration: BoxDecoration(

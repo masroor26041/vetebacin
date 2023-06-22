@@ -1,4 +1,4 @@
-#Tue May 02 22:44:57 CEST 2023
-base.0=C\:\\Users\\Masroor\\StudioProjects\\chatgpt_client\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Thu May 25 16:36:28 CEST 2023
+base.0=C\:\\Users\\Masroor\\backup2\\VeteBacin\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
